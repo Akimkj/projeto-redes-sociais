@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100vh;
+    position: relative;
+    background: black url(../images/fundo-madeira.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+#celular {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 311px;
+    height: 627px;
+    background-image: url(../images/frame-iphone.png);
+    background-repeat: no-repeat;
+}
+
+#celular > iframe {
+    
+}
