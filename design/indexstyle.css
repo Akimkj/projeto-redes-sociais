@@ -24,5 +24,7 @@ body {
 }
 
 #celular > iframe {
-    
+    display: inline-block;
+    padding-top: 5em;
+    height: 50vh;
 }
