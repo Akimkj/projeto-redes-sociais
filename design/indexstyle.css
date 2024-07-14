@@ -23,8 +23,29 @@ body {
     background-repeat: no-repeat;
 }
 
-#celular > iframe {
-    display: inline-block;
-    padding-top: 5em;
-    height: 50vh;
+#social-media {
+    text-align: right;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px;
+    filter: drop-shadow(1px 1px 3px rgba(0, 0, 0, 0.562));
+}
+
+.logo:hover {
+    transition-duration: 600ms;
+    filter: drop-shadow(1px 1px 6px rgba(0, 0, 0, 0.767));
+    border: 2px solid white;
+    transform: translate(-8%, -8%);
+}
+
+iframe {
+    position: absolute;
+    height: 76%;
+    top: 12.5%;
+    width: 86%;
+    left: 7%;
+    
 }
